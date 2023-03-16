@@ -4,8 +4,6 @@ import { json } from "./middlewares/json.js";
 
 const database = new Database();
 
-console.log(database);
-
 const server = http.createServer(async (req, res) => {
   const { method, url } = req;
 
